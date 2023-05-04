@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoixNiveau"
+    android:background="@drawable/fond_app_calcul_mental">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/TexteChoixNiveau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_choix_niveau"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/TextExplicationChoixNiveau"
+            android:layout_width="329dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_explication_choix_niveau"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/BoutonFacile"
+            android:layout_width="235dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_facile"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/BoutonMoyen"
+            android:layout_width="235dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_moyen"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/BoutonDifficile"
+            android:layout_width="235dp"
+            android:layout_height="80dp"
+            android:text="@string/btn_difficile"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

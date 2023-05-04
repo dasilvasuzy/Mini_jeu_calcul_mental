@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/score"
+        app:showAsAction="ifRoom"
+        android:title="Score : 0"
+    />
+    <item
+        android:id="@+id/vie"
+        app:showAsAction="ifRoom"
+        android:title="Vie : 3"
+
+        />
+    <!--android:enabled="false"-->
+
+</menu>

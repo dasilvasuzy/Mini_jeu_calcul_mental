@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoixLangue"
+    android:background="@drawable/fond_app_calcul_mental">>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/BoutonFrançais"
+            android:layout_width="235dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="@string/btn_français"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/BoutonPortugais"
+            android:layout_width="235dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="@string/btn_portugais"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

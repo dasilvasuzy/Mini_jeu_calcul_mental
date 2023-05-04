@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Les textes en portugais (langue secondaire) -->
+<resources>
+    <string name="app_name">Mini jogo de aritmética mental</string>
+
+    <!-- Les textes du menu principal -->
+    <string name="titreapp">Mini jogo de aritmética mental</string>
+    <string name="btn_jouer">Jogar</string>
+    <string name="btn_score">Pontuações</string>
+    <string name="btn_a_propos">Em relação a</string>
+    <string name="btn_langue">Mudar a linguagem</string>
+
+    <!-- Les textes des boutons de langues -->
+    <string name="btn_français">Francês</string>
+    <string name="btn_portugais">Português</string>
+
+    <!-- Les textes de l'activité score -->
+    <string name="text_meilleur_score">Aqui está o ranking das pontuações mais altas :</string>
+    <string name="text_pseudo">Pseudônimo : </string>
+
+    <!-- Les textes dans l'activity ChoixNiveau -->
+    <string name="text_choix_niveau">Por favor, escolha o seu nível de dificuldade.</string>
+    <string name="text_explication_choix_niveau">Quanto maior o nível de dificuldade, maiores serão os números.</string>
+    <string name="btn_facile">Fácil</string>
+    <string name="btn_moyen">Média</string>
+    <string name="btn_difficile">Difícil</string>
+
+    <!-- Les textes dans l'activity Jouer -->
+    <string name="texte_calcul">Cálculo :</string>
+    <string name="texte_réponse">Resposta :</string>
+    <string name="texte_saisir_result">Insira um resultado !</string>
+
+    <!-- Les textes dans l'activity enregistrer -->
+    <string name="text_enregistrer">Sua pontuação será salva.</string>
+    <string name="sai_pseudo">Entre com seu apelido</string>
+    <string name="btn_enregistrer">Registrar</string>
+
+    <!-- Les textes toolbar activity Jouer -->
+    <string name="text_niveau">Nível : </string>
+    <string name="text_score">Pontuação : </string>
+    <string name="text_vie">Vidas : </string>
+
+    <!-- Le texte de à propos -->
+    <string name="text_a_propos">Desenvolvedor : Da Silva Suzy</string>
+    <string name="text_fonctionnalite">Característica(s) adicionai(s) : </string>
+</resources>

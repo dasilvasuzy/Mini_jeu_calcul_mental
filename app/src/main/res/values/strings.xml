@@ -1,0 +1,61 @@
+<!-- Les textes en français (langue principale) -->
+<resources>
+    <string name="app_name">Mini Jeu calcul mental</string>
+
+    <!-- Les textes du menu principal -->
+    <string name="titreapp">Mini jeu calcul mental</string>
+    <string name="btn_jouer">Jouer</string>
+    <string name="btn_score">Score</string>
+    <string name="btn_a_propos">A propos</string>
+    <string name="btn_langue">Modifer la langue</string>
+
+    <!-- Les textes des boutons de langues -->
+    <string name="btn_français">Français</string>
+    <string name="btn_portugais">Portugais</string>
+
+    <!-- Les textes de l'activité score -->
+    <string name="text_meilleur_score">Voici le classement des meilleurs scores :</string>
+    <string name="text_pseudo">Pseudonyme : </string>
+
+    <!-- Les textes dans l'activity ChoixNiveau -->
+    <string name="text_choix_niveau">Veuillez choisir votre niveau de difficulté.</string>
+    <string name="text_explication_choix_niveau">Plus le niveau de difficulté est grand, plus les nombres le seront.</string>
+    <string name="btn_facile">Facile</string>
+    <string name="btn_moyen">Moyen</string>
+    <string name="btn_difficile">Difficile</string>
+
+    <!-- Les textes dans l'activity Jouer -->
+    <string name="texte_calcul">Calcul :</string>
+    <string name="texte_réponse">Réponse :</string>
+    <string name="texte_saisir_result">Saisissez un résultat !</string>
+
+    <!-- Les textes toolbar activity Jouer -->
+    <string name="text_niveau">Niveau : </string>
+    <string name="text_score">Score : </string>
+    <string name="text_vie">Vies : </string>
+
+    <!-- Les textes dans l'activity enregistrer -->
+    <string name="text_enregistrer">Votre score va être enregistré.</string>
+    <string name="sai_pseudo">Saisir votre pseudo</string>
+    <string name="btn_enregistrer">Enregistrer</string>
+
+
+    <!-- Le texte de à propos -->
+    <string name="text_a_propos">Développeur : Da Silva Suzy</string>
+    <string name="text_fonctionnalite">Fonctionnalité(s) supplémentaire(s) : </string>
+
+    <!-- Les valeurs du clavier numérique -->
+    <string name="bouton_1" translatable="false">1</string>
+    <string name="bouton_2" translatable="false">2</string>
+    <string name="bouton_3" translatable="false">3</string>
+    <string name="bouton_4" translatable="false">4</string>
+    <string name="bouton_5" translatable="false">5</string>
+    <string name="bouton_6" translatable="false">6</string>
+    <string name="bouton_7" translatable="false">7</string>
+    <string name="bouton_8" translatable="false">8</string>
+    <string name="bouton_9" translatable="false">9</string>
+    <string name="bouton_0" translatable="false">0</string>
+    <string name="bouton_supp" translatable="false">←</string>
+    <string name="bouton_moins" translatable="false">-</string>
+    <string name="bouton_valider" translatable="false">✓</string>
+</resources>
