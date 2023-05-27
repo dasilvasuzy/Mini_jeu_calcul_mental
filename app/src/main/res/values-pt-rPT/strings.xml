@@ -34,6 +34,9 @@
     <string name="text_enregistrer">Sua pontuação será salva.</string>
     <string name="sai_pseudo">Entre com seu apelido</string>
     <string name="btn_enregistrer">Registrar</string>
+    <string name="titre_pop_up">Sua pontuação foi salva. :)</string>
+    <string name="text_pop_up1">Sua pontuação é </string>
+    <string name="text_pop_up2"> Obrigado por ter jogar !</string>
 
     <!-- Les textes toolbar activity Jouer -->
     <string name="text_niveau">Nível : </string>
@@ -43,4 +46,5 @@
     <!-- Le texte de à propos -->
     <string name="text_a_propos">Desenvolvedor : Da Silva Suzy</string>
     <string name="text_fonctionnalite">Característica(s) adicionai(s) : </string>
+    <string name="text_fonctionnalite2">- Sistema de níveis \n- Mudança de linguagem\n-Adicionar animação</string>
 </resources>

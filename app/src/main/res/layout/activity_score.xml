@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/fond_app_calcul_mental">
+    android:background="@color/beige">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_meilleur_score"
-            android:textColor="@color/white"
+            android:textColor="@color/orange"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"
@@ -37,14 +37,16 @@
             android:stretchColumns="0,1,2"
             android:gravity="center"
             android:layout_margin="20dp">
-
             <TableRow
-                android:background="#558C93"
+                android:background="@color/libelle_score"
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 >
+
+
+
                 <TableRow
                     android:background="#000000"
                     android:layout_width="fill_parent"
@@ -52,8 +54,6 @@
                     android:layout_margin="1dp"
                     android:layout_weight="1"
                     >
-
-
 
                 </TableRow>
             </TableRow>
@@ -69,11 +69,11 @@
                 >
 
                 <TextView
-                    android:layout_width="77dp"
+                    android:layout_width="189dp"
                     android:layout_height="match_parent"
                     android:layout_column="0"
                     android:layout_margin="1dp"
-                    android:background="#558C93"
+                    android:background="@color/libelle_score"
                     android:gravity="center"
                     android:text="@string/text_pseudo"
                     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -86,7 +86,7 @@
                     android:text="@string/text_score"
                     android:layout_margin="1dp"
                     android:layout_column="1"
-                    android:background="#558C93"
+                    android:background="@color/libelle_score"
                     android:gravity="center"
                     android:textStyle="bold"
                     />
@@ -109,7 +109,7 @@
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_margin="1dp"
                     android:layout_column="0"
-                    android:background="#558C93"
+                    android:background="@color/info_score"
                     android:gravity="center"
                     />
 
@@ -120,45 +120,43 @@
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_margin="1dp"
                     android:layout_column="1"
-                    android:background="#558C93"
+                    android:background="@color/info_score"
                     android:gravity="center"
                     />
             </TableRow>
 
             <!-- Troisième ligne -->
+
+            <!-- Quatrième ligne -->
             <TableRow
-                android:background="#000000"
-                android:layout_width="fill_parent"
-                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                >
+                android:background="#000000">
 
                 <TextView
                     android:id="@+id/pseudo2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_margin="1dp"
                     android:layout_column="0"
-                    android:background="#558C93"
+                    android:layout_margin="1dp"
+                    android:background="@color/info_score"
                     android:gravity="center"
-                    />
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
 
                 <TextView
                     android:id="@+id/score2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_margin="1dp"
                     android:layout_column="1"
-                    android:background="#558C93"
+                    android:layout_margin="1dp"
+                    android:background="@color/info_score"
                     android:gravity="center"
-                    />
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
 
             </TableRow>
 
-            <!-- Quatrième ligne -->
             <TableRow
                 android:background="#000000"
                 android:layout_width="fill_parent"
@@ -174,7 +172,7 @@
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_margin="1dp"
                     android:layout_column="0"
-                    android:background="#558C93"
+                    android:background="@color/info_score"
                     android:gravity="center"
                     />
 
@@ -185,8 +183,9 @@
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_margin="1dp"
                     android:layout_column="1"
-                    android:background="#558C93"
+                    android:background="@color/info_score"
                     android:gravity="center"
+
                     />
 
             </TableRow>
@@ -207,7 +206,7 @@
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_margin="1dp"
                     android:layout_column="0"
-                    android:background="#558C93"
+                    android:background="@color/info_score"
                     android:gravity="center"
                     />
 
@@ -218,7 +217,7 @@
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_margin="1dp"
                     android:layout_column="1"
-                    android:background="#558C93"
+                    android:background="@color/info_score"
                     android:gravity="center"
                     />
 

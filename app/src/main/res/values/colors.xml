@@ -12,5 +12,11 @@
     <color name="mauvaise_reponse">#f9584b</color>
     <color name="gris">#757575</color>
 
-    <color name="beige">#f3ece2</color>
+    <color name="beige">#FCE2BE</color>
+    <color name="orange">#FF8D02</color>
+
+    <color name="libelle_score">#E08E6D</color>
+    <color name="info_score">#F6C391</color>
+
+    <color name="text_btn_jouer">#FF000000</color>
 </resources>

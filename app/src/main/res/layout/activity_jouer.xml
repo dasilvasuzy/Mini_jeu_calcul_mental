@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fond_app_calcul_mental"
+    android:background="@color/beige"
     xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Inclure toolbar de jeu -->
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/texte_calcul"
                 android:textSize="24sp"
-                android:textColor="@color/white"/>
+                android:textColor="@color/orange"/>
 
             <TextView
                 android:id="@+id/TextCalculAleatoire"
@@ -78,7 +78,7 @@
                 android:text="CalculAléatoire"
                 android:textAlignment="center"
                 android:textSize="34sp"
-                android:textColor="@color/white"/>
+                android:textColor="@color/orange"/>
 
             <TextView
                 android:id="@+id/textReponse"
@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/texte_réponse"
                 android:textSize="24sp"
-                android:textColor="@color/white"/>
+                android:textColor="@color/orange"/>
 
             <TextView
                 android:id="@+id/TextReponseUser"
@@ -95,7 +95,7 @@
                 android:text="ReponseUser"
                 android:textAlignment="center"
                 android:textSize="40sp"
-                android:textColor="@color/white"/>
+                android:textColor="@color/orange"/>
         </LinearLayout>
 
         <LinearLayout
@@ -118,7 +118,8 @@
                     android:text="@string/bouton_supp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
 
                 <Button
@@ -129,7 +130,8 @@
                     android:text="@string/bouton_moins"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
 
                 <Button
@@ -140,7 +142,8 @@
                     android:text="@string/bouton_valider"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
 
 
@@ -161,7 +164,8 @@
                     android:text="@string/bouton_1"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
 
                 <Button
@@ -172,7 +176,8 @@
                     android:text="@string/bouton_2"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
 
                 <Button
@@ -183,6 +188,8 @@
                     android:text="@string/bouton_3"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
             </LinearLayout>
 
@@ -200,7 +207,8 @@
                     android:text="@string/bouton_4"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
 
                 <Button
@@ -211,7 +219,8 @@
                     android:text="@string/bouton_5"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
 
                 <Button
@@ -222,7 +231,8 @@
                     android:text="@string/bouton_6"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
             </LinearLayout>
 
@@ -240,7 +250,8 @@
                     android:text="@string/bouton_7"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
 
                 <Button
@@ -251,7 +262,8 @@
                     android:text="@string/bouton_8"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
 
                 <Button
@@ -262,7 +274,8 @@
                     android:text="@string/bouton_9"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
-
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"/>
             </LinearLayout>
 
@@ -286,6 +299,8 @@
                     android:text="@string/bouton_0"
                     android:layout_marginRight ="10dp"
                     android:layout_marginLeft ="10dp"
+                    android:textColor="@color/text_btn_jouer"
+                    android:textSize="20dp"
                     android:background="@drawable/boutton_arrondi"
                     />
 

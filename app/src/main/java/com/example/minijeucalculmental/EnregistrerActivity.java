@@ -65,12 +65,16 @@ public class EnregistrerActivity extends AppCompatActivity {
 
         monScore.setScore(ScoreUtilisateur);
         Score entité = scoreDao.create(monScore);
+
         if (entité.id > 0) {
             // on affiche un message pour dire que c'est bon
             AlertDialog.Builder builder = new AlertDialog.Builder(context_actuel);
+            String textpopup1 = getString(R.string.text_pop_up1);
 
-            builder.setTitle("Votre score a bien été enregistré. :)")
-                    .setMessage("Votre score est " + ScoreUtilisateur + ". Merci d'avoir joué !")
+            String textpopup2 = getString(R.string.text_pop_up2);
+
+            builder.setTitle(R.string.titre_pop_up)
+                    .setMessage(textpopup1 + ScoreUtilisateur + "." + textpopup2)
                     .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {

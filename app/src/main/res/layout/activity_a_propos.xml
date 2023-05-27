@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/beige">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,13 +22,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_a_propos"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            android:textColor="@color/orange"
+            android:textSize="20sp"/>
 
         <TextView
+            android:layout_marginTop="20sp"
             android:id="@+id/TextFonctionnalite"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/text_fonctionnalite"
+            tools:ignore="MissingConstraints"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/TextFonctionnalite2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_fonctionnalite2"
+            tools:ignore="MissingConstraints"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="220dp"
+            android:layout_height="244dp"
+            android:background="@drawable/calculatrice"
+            android:radius="11dp"
+            />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

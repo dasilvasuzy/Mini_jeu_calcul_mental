@@ -21,13 +21,9 @@ public class ScoreBaseHelper extends DataBaseHelper{
 
     @Override
     protected String getDeleteSql() {
-        return "DROP TABLE IF EXISTS "+ ScoreDao.tableName;    }
-
-    @Override
-    protected String getBestScores() {
-        return "SELECT " + ScoreDao.pseudoUtilisateur + ", MAX(" + ScoreDao.scoreUtilisateur + ")" +
-                "FROM " + ScoreDao.tableName + " LIMIT 4";
+        return "DROP TABLE IF EXISTS "+ ScoreDao.tableName;
     }
+
 
 
 

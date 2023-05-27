@@ -3,7 +3,7 @@
     <string name="app_name">Mini Jeu calcul mental</string>
 
     <!-- Les textes du menu principal -->
-    <string name="titreapp">Mini jeu calcul mental</string>
+    <string name="titreapp">Mini jeu de calcul mental</string>
     <string name="btn_jouer">Jouer</string>
     <string name="btn_score">Score</string>
     <string name="btn_a_propos">A propos</string>
@@ -38,11 +38,16 @@
     <string name="text_enregistrer">Votre score va être enregistré.</string>
     <string name="sai_pseudo">Saisir votre pseudo</string>
     <string name="btn_enregistrer">Enregistrer</string>
+    <string name="titre_pop_up">Votre score a bien été enregistré. :)</string>
+    <string name="text_pop_up1">Votre score est </string>
+    <string name="text_pop_up2"> Merci d\'avoir joué !</string>
+
 
 
     <!-- Le texte de à propos -->
     <string name="text_a_propos">Développeur : Da Silva Suzy</string>
     <string name="text_fonctionnalite">Fonctionnalité(s) supplémentaire(s) : </string>
+    <string name="text_fonctionnalite2">- Système de niveaux \n- Changement de langues \n-Ajout animation sur l\'activité Jouer</string>
 
     <!-- Les valeurs du clavier numérique -->
     <string name="bouton_1" translatable="false">1</string>

@@ -219,7 +219,7 @@ public class JouerActivity extends AppCompatActivity {
                     AfficheCalculAléatoire();
                     TextCalcul.setAnimation(fadein_anim);
 
-                    TextCalcul.setTextColor(ContextCompat.getColor(context_actuel,R.color.white));
+                    TextCalcul.setTextColor(ContextCompat.getColor(context_actuel,R.color.orange));
 
                    /* Handler handler_fadein = new Handler();
                     handler_fadein.postDelayed(new Runnable() {

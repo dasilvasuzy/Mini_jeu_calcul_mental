@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.minijeucalculmental.entities.BaseEntity;
+import com.example.minijeucalculmental.entities.Score;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -58,6 +59,33 @@ public abstract class BaseDao<T extends BaseEntity> {
         return items;
     }
 
+    public List<Score> getMesDonnee(){
+        // récupérer les données de la BD
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+
+        // on fait l'équivalent d'une requête avec query
+        Cursor cursor =db.query(
+                getTableName(),
+                null,
+                null,
+                null,
+                null,
+                null,
+                "SCORE_UTILISATEUR DESC");
+
+        List<Score> listToReturn = new ArrayList<>();
+        while (cursor.moveToNext()){
+            Score score = new Score();
+            Integer indexPseudo = cursor.getColumnIndex("PSEUDO_UTILISATEUR");
+            Integer indexScore = cursor.getColumnIndex(String.valueOf("SCORE_UTILISATEUR"));
+            score.setPseudo(cursor.getString(indexPseudo));
+            score.setScore(cursor.getString(indexScore)); //cursor.getInt(indexScore));
+            listToReturn.add(score);
+        }
+        cursor.close();
+
+        return listToReturn;
+    }
 
     public T lastOrNull() {
         SQLiteDatabase db = dbHelper.getReadableDatabase();

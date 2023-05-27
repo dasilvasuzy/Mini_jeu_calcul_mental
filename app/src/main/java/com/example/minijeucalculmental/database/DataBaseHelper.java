@@ -20,8 +20,6 @@ public abstract class DataBaseHelper extends SQLiteOpenHelper {
     protected abstract String getCreationSql();
     protected abstract String getDeleteSql();
 
-    protected abstract String getBestScores();
-
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(getCreationSql());
     }

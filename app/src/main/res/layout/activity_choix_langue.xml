@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ChoixLangue"
-    android:background="@drawable/fond_app_calcul_mental">>
+    android:background="@color/beige">>
 
     <LinearLayout
         android:layout_width="match_parent"

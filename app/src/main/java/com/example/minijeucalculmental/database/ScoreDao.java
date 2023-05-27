@@ -38,12 +38,6 @@ public class ScoreDao  extends  BaseDao<Score>{
         return score;
     }
 
-  /*  protected List<Score> getBestScore() {
-        String selection = pseudoUtilisateur + ", " + scoreUtilisateur;
-        List<Score> = query( selection, "", "") ;
-    }
-
-   */
 
 
 
